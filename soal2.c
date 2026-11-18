@@ -31,7 +31,7 @@ int langkah_minimum (int g1, int g2, int takar, int j){
 }
 
 int main (){
-    int j = 1;
+    int j = 0;
     int g1, g2, takar;
     scanf("%d %d %d", &g1, &g2, &takar);
     if (langkah_minimum(g1, g2, takar, j)){
