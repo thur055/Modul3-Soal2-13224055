@@ -14,7 +14,7 @@ int gcd(int a, int b)
 // [https://www.geeksforgeeks.org/c/gcd-in-c/]
 
 int langkah_minimum (int g1, int g2, int takar, int j, int ng1, int ng2){
-    printf("%d %d %d\n", g1, g2, j);
+    //printf("%d %d %d\n", g1, g2, j);
     if (g1 < takar && g2 < takar) return -1;
     if (g1 == takar || g2 == takar) return 1;
     if (takar % g1 == 0) return 2*takar/g1 + j;
